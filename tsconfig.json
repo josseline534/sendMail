@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                           // Elige la versión de ECMAScript objetivo
+    "module": "CommonJS",                         // Usa CommonJS para módulos
+    "outDir": "./dist",                           // Salida de los archivos compilados
+    "rootDir": "./src",                           // Directorio raíz de los archivos fuente
+    "strict": true,                               // Activa las verificaciones estrictas
+    "esModuleInterop": true,                      // Habilita interoperabilidad con módulos ES
+    "skipLibCheck": true,                         // Omite la comprobación de tipos en los archivos de declaración
+    "forceConsistentCasingInFileNames": true      // Fuerza el uso de mayúsculas y minúsculas coherentes
+  },
+  "include": ["src"],                             // Directorio que incluye los archivos fuente
+  "exclude": ["node_modules"]                     // Excluye la carpeta node_modules
+}
