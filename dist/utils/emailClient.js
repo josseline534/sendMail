@@ -9,7 +9,7 @@ const config_1 = require("../config");
 exports.emailClient = nodemailer_1.default.createTransport({
     host: config_1.config.smtpHost,
     port: config_1.config.smtpPort,
-    secure: false,
+    secure: true,
     auth: {
         user: config_1.config.smtpUser,
         pass: config_1.config.smtpPass
